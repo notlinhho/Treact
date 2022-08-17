@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+li {
+    list-style-type: none;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -20,12 +24,48 @@ html {
 .container {
     padding: 32px;
 }
+
+
 /* 
 
 NAVIGATION
 
 */
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    justify-content: center;
+    padding-left: ;
+
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #243e63;
+}
 
 .logo {
     width: 50px;
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.logo__text {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 560px;
+}
+
+.logo__text:hover {
+    color: #6415ff;
+    cursor: pointer;
+}
+
+.nav__link--primary {
+
+}
+
+
