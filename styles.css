@@ -43,6 +43,7 @@ NAVIGATION
 .logo__text {
     font-size: 24px;
     font-weight: bold;
+    margin: 0px 24px 0 0;
     /*padding-right: 560px;*/
 }
 
