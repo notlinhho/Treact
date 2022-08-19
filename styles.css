@@ -35,16 +35,13 @@ NAVIGATION
 .logo {
     width: 50px;
     font-size: 24px;
-    font-weight: bold;
     margin: 0 12px 0 0;
 }
 
-
 .logo__text {
+    margin: 0 24px 0 0;
     font-size: 24px;
     font-weight: bold;
-    margin: 0px 24px 0 0;
-    /*padding-right: 560px;*/
 }
 
 .logo__text:hover {
@@ -52,26 +49,28 @@ NAVIGATION
     cursor: pointer;
 }
 
-.nav__bar,
+.nav, 
 .nav__links,
 .logo__text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #243e63;
+    padding: 0 0 4px;
 }
 
 .nav__link {
     margin: 0px 24px;
-    text-decoration: none;
-    font-size: 24px;
-    justify-content: center;
-    
-
+    font-weight: 600;
 }
 
 .nav__link--primary {
-    background-color: black;
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border-radius: 70px;
+    color: white;
+    font-size: 16px;
+    border: none;
 }
 
 
