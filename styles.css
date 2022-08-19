@@ -19,11 +19,19 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #243e63;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
+}
+
+.purple {
+    color: #6415ff;
 }
 
 /* 
@@ -34,7 +42,6 @@ NAVIGATION
 
 .logo {
     width: 50px;
-    font-size: 24px;
     margin: 0 12px 0 0;
 }
 
@@ -73,4 +80,31 @@ NAVIGATION
     border: none;
 }
 
+/* 
+
+HEADER 
+
+*/
+
+.img__trusted {
+    width: 300px;
+}
+
+.img__design {
+    width: 400px;
+}
+
+.header__columns {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+}
+
+.header__columns--right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
