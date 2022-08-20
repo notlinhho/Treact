@@ -21,6 +21,7 @@ a {
 
 p {
     color: #243e63;
+    font-weight: 500;
 }
 
 .row {
@@ -32,6 +33,11 @@ p {
 
 .purple {
     color: #6415ff;
+}
+
+input {
+    padding: 20px 192px 20px 32px;
+    
 }
 
 /* 
@@ -87,17 +93,20 @@ HEADER
 */
 
 .img__trusted {
-    width: 300px;
+    width: 400px;
+    margin: 16px 0px 0px;
+    padding: 0px 64px 0px 0px;
 }
 
 .img__design {
-    width: 400px;
+    width: 512px;
 }
 
 .header__columns {
     max-width: 1280px;
     display: flex;
     align-items: center;
+    padding: 96px 0;
 }
 
 .header__columns--right {
@@ -106,5 +115,29 @@ HEADER
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.header__h1 {
+    font-size: 36px;
+}
+
+.header__para {
+    font-size: 16px;
+    margin: 32px 0px;
+}
+
+.header__container--right {
+    width: 640px;
+}
+
+.header__button {
+    color: #fff;
+    margin: 8px 8px 8px 0px;
+    padding: 16px 0;
+
+}
+
+.header__trusted {
+    margin: 80px 0px 0px;
 }
 
