@@ -7,6 +7,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+*, ::after, ::before {
+    /*border: 0 solid #e5e7eb;*/
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -17,6 +21,7 @@ li {
 
 a {
     text-decoration: none;
+    font-weight: 600;
 }
 
 p {
@@ -36,11 +41,25 @@ p {
 }
 
 input {
-    padding: 20px 192px 20px 32px;
-    border-radius: 24px;
+    padding: 16px 0px 16px 32px;
+    border-radius: 27px;
     width: 100%;
     font-weight: 500;
+}
 
+button {
+    /*background-color: rgba(100,21,255);
+    color: #fff;
+    border-radius: 9999px;
+    margin: 8px 8px 8px 0px;
+    padding: 16px 0px;*/
+
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border-radius: 70px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
 }
 
 /* 
@@ -60,11 +79,23 @@ NAVIGATION
     font-weight: bold;
 }
 
-.logo__text:hover {
+.logo__text:hover, li:hover {
     color: #6415ff;
     cursor: pointer;
 }
 
+li:hover {
+    text-decoration: underline;
+    /* adjust the distance between underline and text */
+    text-underline-offset: 8px;
+    /* bold the underline, not the text */
+    text-decoration-thickness: 3px;
+    
+}
+
+.nav__links:hover {
+
+}
 .nav, 
 .nav__links,
 .logo__text {
@@ -78,15 +109,6 @@ NAVIGATION
 .nav__link {
     margin: 0px 24px;
     font-weight: 600;
-}
-
-.nav__link--primary {
-    background-color: #6415ff;
-    padding: 12px 32px;
-    border-radius: 70px;
-    color: white;
-    font-size: 16px;
-    border: none;
 }
 
 /* 
@@ -103,10 +125,13 @@ HEADER
 
 .img__design {
     width: 512px;
+    display: flex;
+    align-items: center;
 }
 
 .header__columns {
-    max-width: 1280px;
+    max-width: 32rem;
+    min-width: 0px;
     display: flex;
     align-items: center;
     padding: 96px 0;
@@ -134,14 +159,19 @@ HEADER
 }
 
 .header__button {
-    background-color: rgba(100,21,255);
-    color: #fff;
-    margin: 8px 8px 8px 0px;
-    padding: 16px 0;
-    /* button update*/
-
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    
 }
 
+.header__button:hover {
+    color:#
+}
 .header__trusted {
     margin: 80px 0px 0px;
     padding: 0px;
