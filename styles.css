@@ -27,6 +27,8 @@ a {
 p {
     color: #243e63;
     font-weight: 500;
+    /*space between the paragraphs*/
+    line-height: 1.5;
 }
 
 .row {
@@ -42,9 +44,7 @@ p {
 
 input {
     padding: 20px 192px 20px 32px;
-    width: 100%;
     border-radius: 9999px;
-
     font-weight: 500;
 }
 
