@@ -146,7 +146,7 @@ HEADER
 }
 
 .img__trusted, .txt_trusted {
-    opacity: 40%;
+    opacity: 50%;
 }
 
 .header__columns {
