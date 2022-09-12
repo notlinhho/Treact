@@ -37,6 +37,12 @@ p {
     line-height: 1.5;
 }
 
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -219,6 +225,29 @@ textarea, .header__input:focus {
     margin: 120px 0px 0px;
     padding: 0px;
 }
+
+/*
+
+FEATURES
+
+*/
+
+.features__title {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.features__title, .features__title--services {
+    /* aligns the text to the center of the page */
+    text-align: center;
+}
+
+.features__title--services {
+    color:#243e63;
+    font-size: 36px;
+
+}
+
 
 /* help with the button and put it inside */
 /* help with the button and put it inside */
