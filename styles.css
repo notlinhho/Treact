@@ -131,7 +131,6 @@ HEADER
     width: 400px;
     margin: 16px 0px 0px;
     padding: 0px 64px 0px 0px;
-
 }
 
 .img__design {
@@ -158,6 +157,10 @@ HEADER
     align-items: center;
     justify-content: center;
 
+}
+
+.header__email {
+    display: flex;
 }
 
 .header__columns--right {
