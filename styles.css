@@ -237,7 +237,7 @@ FEATURES
     letter-spacing: 0.1em;
 }
 
-.features__title, .features__title--services {
+.features__title, .features__title--services, .features__para {
     /* aligns the text to the center of the page */
     text-align: center;
 }
@@ -248,7 +248,10 @@ FEATURES
 
 }
 
-
+.features__para {
+    margin-top: 1rem;
+    max-width: 36rem;
+}
 /* help with the button and put it inside */
 /* help with the button and put it inside */
 /* tests adding comments */
