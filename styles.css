@@ -232,6 +232,12 @@ FEATURES
 
 */
 
+.features__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .features__title {
     font-size: 18px;
     letter-spacing: 0.1em;
