@@ -82,6 +82,10 @@ button:hover {
     cursor: pointer;
 }
 
+.divider {
+    margin: 40px;
+}
+
 /* 
 
 NAVIGATION
@@ -241,6 +245,7 @@ FEATURES
 .features__title {
     font-size: 18px;
     letter-spacing: 0.1em;
+    margin: 0px 0px 16px;
 }
 
 .features__title, .features__title--services, .features__para {
@@ -251,7 +256,7 @@ FEATURES
 .features__title--services {
     color:#243e63;
     font-size: 36px;
-
+    margin: 0;
 }
 
 .features__para {
