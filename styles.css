@@ -83,7 +83,7 @@ button:hover {
 }
 
 .divider {
-    margin: 40px;
+    margin-top: 40px;
 }
 
 /* 
@@ -242,6 +242,7 @@ FEATURES
     justify-content: center;
     align-items: center;
 }
+
 .features__title {
     font-size: 18px;
     letter-spacing: 0.1em;
@@ -255,14 +256,48 @@ FEATURES
 
 .features__title--services {
     color:#243e63;
-    font-size: 36px;
+    font-size: 48px;
     margin: 0;
 }
 
 .features__para {
     margin-top: 1rem;
     max-width: 36rem;
+    color: #7C8BA1;
+    font-size: 18px;
 }
+
+.features__column--right{
+    margin: 8px 0 0 16px;
+}
+
+.features__column--services {
+    display: flex;
+    width: 300px;
+}
+
+.features__column--title {
+    font-size: 24px;
+}
+
+.features__column--description {
+    margin: 16px 0 0;
+}
+
+.imageContainer {
+    width: 66px;
+    height: 66px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #c4c6ca;
+
+}
+
+.img__service {
+    width: 24px;
+    height: 24px;
+}
+
 /* help with the button and put it inside */
 /* help with the button and put it inside */
 /* tests adding comments */
