@@ -74,6 +74,7 @@ button {
     border: none;
     border-radius: 70px;
     font-size: 16px;
+    font-weight: 600;
     
 }
 
@@ -86,6 +87,50 @@ button:hover {
     margin-top: 40px;
 }
 
+.titles {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.headers {
+    margin: 16px 0 0;
+    font-size: 48px;
+    color: #243e63;
+    width: 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 26px; 
+    padding: 96px 0;
+}
+
+.row__columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row__columns--left {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.row__columns--right {
+    display: flex;
+    align-items: center;
+}
+
+.paragraphs {
+    margin: 16px 0 0;
+    font-size: 18px;
+    color: #7C8BA1;
+    display: block;
+    text-align: left;
+}
 /* 
 
 NAVIGATION
@@ -168,7 +213,6 @@ HEADER
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .header__email {
@@ -222,7 +266,6 @@ textarea, .header__input:focus {
     margin: 8px 8px 8px 0px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 700;
 }
 
 .header__trusted {
@@ -236,18 +279,7 @@ FEATURES
 
 */
 
-.features__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 26px; 
-    padding: 96px 0;
-}
-
 .features__title {
-    font-size: 18px;
-    letter-spacing: 0.1em;
     margin: 0px 0px 16px;
     
 }
@@ -311,6 +343,25 @@ FEATURES
     width: 24px;
     height: 24px;
 }
+
+/*
+
+QUALITY 
+
+*/
+
+.quality__button {
+    margin: 32px 0 0;
+    font-size: 14px;
+}
+
+.img__quality {
+    height: 356px;
+    width: 555px;
+    outline: 1px solid #c4c6ca;
+}
+
+
 
 /* help with the button and put it inside */
 /* help with the button and put it inside */
