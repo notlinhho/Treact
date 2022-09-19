@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
 }
 
 *, ::after, ::before {
@@ -96,7 +97,6 @@ button:hover {
     margin: 16px 0 0;
     font-size: 48px;
     color: #243e63;
-    width: 
 }
 
 .container {
@@ -110,7 +110,6 @@ button:hover {
 
 .row__columns {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -121,7 +120,7 @@ button:hover {
 
 .row__columns--right {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .paragraphs {
@@ -369,6 +368,7 @@ STEPS
 
 .step__rows {
     padding: 96px 0;
+    display: flex;
 }
 
 .img__steps {
@@ -376,11 +376,58 @@ STEPS
 }
 
 .steps__columns--left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 50%;
 }
+
+.steps__columns--right {
+    padding: 32px 0 32px 0;
+    width: 50%;
+}
+
+.numbers__container {
+    margin: 32px 0 0 0;
+}
+.numbered__columns {
+    margin: 32px 0 0;
+}
+
+.numbered__columns--left {
+    font-size: 36px;
+    font-weight: 600;
+    color: #CBD5E0;
+    
+}
+
+.numbered__columns--right {
+    padding: 0 0 0 24px;
+}
+
+.numbered__columns:hover {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.numbers__list {
+    font-size: 36px;
+    color: #CBD5E0;
+}
+
+.numbered__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.numbered__para {
+    margin: 12px 0 0;
+    color: #718096;
+    font-size: 14px;
+}
+
+.numbers__container {
+    display: flex;
+}
+
 
 
 
