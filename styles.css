@@ -161,6 +161,10 @@ li:hover {
     
 }
 
+.nav {
+    margin: 32px 0 0 0;
+}
+
 .nav, 
 .nav__links,
 .logo__text {
@@ -373,11 +377,13 @@ STEPS
 }
 
 .img__steps {
-    width: 90%;
+    width: 100%;
+    
 }
 
 .steps__columns--left {
     width: 50%;
+    padding: 32px 32px 0 0;
 }
 
 .steps__columns--right {
@@ -388,6 +394,12 @@ STEPS
 .numbers__container {
     margin: 32px 0 0 0;
 }
+
+.numbers__container:hover {
+    text-decoration: none;
+    cursor: auto;
+}
+
 .numbered__columns {
     margin: 32px 0 0;
 }
@@ -429,9 +441,42 @@ STEPS
     display: flex;
 }
 
+/* 
 
+VALUES
 
+*/
 
+.values__row {
+    margin: 96px 0 96px 0;
+}
+
+.values__container {
+    display: flex;
+}
+
+.values__column--left {
+    width: 90%;
+}
+
+.img__values {
+    width: 100%
+}
+
+.benefits__container {
+    display: flex;
+    margin: 24px 0 0 0;
+}
+
+.affordable__header, .professionalism__header {
+    color: #243e63;
+}
+
+.affordable__para, .professionalism__para {
+    width: 90%;
+    color: #718096;
+    margin: 12px 0 0 0;
+}
 
 /* add some random txt */
 
