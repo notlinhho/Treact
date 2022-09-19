@@ -367,12 +367,13 @@ STEPS
 */
 
 .step__rows {
-    padding: 96px 0;
+    padding: 96px 32px;
     display: flex;
+
 }
 
 .img__steps {
-    width: 95%;
+    width: 90%;
 }
 
 .steps__columns--left {
