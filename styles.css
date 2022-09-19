@@ -360,7 +360,33 @@ QUALITY
     width: 555px;
     outline: 1px solid #c4c6ca;
 }
+
+/* 
+
+STEPS 
+
+*/
+
+.step__rows {
+    padding: 96px 0;
+}
+
+.img__steps {
+    width: 95%;
+}
+
+.steps__columns--left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+
+
 /* add some random txt */
+
 
 
 /* help with the button and put it inside */
