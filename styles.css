@@ -520,6 +520,22 @@ PRICING
     width: 45%;
 }
 
+/* Plans */
+
+.plans__container {
+    /* for the three row containers */
+}
+
+.personal__container {
+
+}
+
+.plans__container--top, .plans__container--mid, .plans__container--btm, .plans__features--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.plans
 
 /* add some random txt */
 
