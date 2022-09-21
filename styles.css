@@ -46,7 +46,6 @@ h2 {
 
 .row {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
 }
@@ -435,11 +434,16 @@ STEPS
     margin: 12px 0 0;
     color: #718096;
     font-size: 14px;
+    width: 85%;
 }
 
-.numbers__container {
+.numbers__container, .values__container, .benefits__container, .affordable__sides, .professionalism__sides {
     display: flex;
 }
+
+.affordable__right, .professionalism__right {
+    margin: 0 0 0 12px;
+}   
 
 /* 
 
@@ -451,20 +455,16 @@ VALUES
     margin: 96px 0 96px 0;
 }
 
-.values__container {
-    display: flex;
-}
-
 .values__column--left {
     width: 90%;
 }
 
 .img__values {
+    padding: 0 0 0 32px;
     width: 100%
 }
 
 .benefits__container {
-    display: flex;
     margin: 24px 0 0 0;
 }
 
@@ -477,6 +477,49 @@ VALUES
     color: #718096;
     margin: 12px 0 0 0;
 }
+
+.affordable__left, .professionalism__left {
+    height: 36px;
+    width: 36px;
+}
+
+.affordable__left {
+    color: #276749;
+    background-color: #9AE6B4;
+    border-radius: 50px;
+}
+
+.feather-dollar-sign {
+    align-items: center;
+    justify-content: center;
+}
+
+.professionalism__left {
+    background-color: #FEB2B2;
+    border-radius: 50px;
+}
+
+/*
+
+PRICING 
+
+*/
+
+.pricing__container {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing__para {
+    margin: 16px 0 0 0;
+    text-align: center;
+    width: 45%;
+}
+
 
 /* add some random txt */
 
