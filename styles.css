@@ -529,11 +529,10 @@ PRICING
 .plans__container {
     /* for the three row containers */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%;
 }
-
 
 .plans__colours {
     width: 100%;
@@ -542,7 +541,7 @@ PRICING
     border-top-right-radius: 0.5rem;
     top: 0px;
     left: 0px;
-    right: 0px
+    right: 0px;
 }
 
 .gradient__green, .plans__button {
@@ -552,7 +551,11 @@ PRICING
 .threeplans__wrapper {
     margin: 64px 32px 0 0;
     /*padding: 8px 32px 0 32px;*/
+    display: flex;
+    flex-direction: column;
+    
 }
+
 
 .plans__container--mid {
     border-top-width: 2px;
