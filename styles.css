@@ -532,7 +532,6 @@ PRICING
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 100%;
 }
 
 .plans__colours {
@@ -545,18 +544,37 @@ PRICING
     right: 0px;
 }
 
-.gradient__green, .plans__button {
-    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
 .threeplans__wrapper {
     margin: 64px 32px 0 0;
     /*padding: 8px 32px 0 32px;*/
     display: flex;
     flex-direction: column;
+    width: 100%;
     
 }
 
+.gradient__green, .plans__button--first {
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+.business__container {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 10px;
+}
+
+.plans__button--mid {
+    background: #fff;
+    color: #6415ff;
+}
+
+.gradient__red, .plans__button--last {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plans__container--top {
+    padding: 32px 0;
+}
 
 .plans__container--mid {
     border-top-width: 2px;
@@ -564,9 +582,13 @@ PRICING
     border-style: solid;
     border-color: #CBD5E0;
 }
-.plans__container--top {
-    padding: 32px 0;
+
+.plans__container--btm {
+    align-items: center;
 }
+
+
+
 
 .plans__container--mid, .plans__container--btm {
     padding: 32px;
@@ -581,13 +603,12 @@ PRICING
     color: #1A202C;
 }
 
+
 .plans__title, .plans__title--pricing, .plans__features--title, .plans__title--monthly {
     font-weight: 700;
 }
 
 .plans__title {
-
-
     font-size: 1.25rem;
 }
 
@@ -613,8 +634,24 @@ PRICING
     margin-top: 1.25rem;
 }
 
+.business__title, .business__pricing, .plans__features--container, .business__list, .business__monthly {
+    color: #fff;
+    
+}
+
+.plans__button--first, .plans__button--mid, .plans__button--last {
+    font-size: 14px;
+    width: 100%;
+    
+}
+
+
+
+
 /* fix the icon svg position
 add shade/shadow to the pricing options
 make the plan containers the same width
+when you make the page smaller, the text of 
+"buy now" doesn't fit in the button
 added comments
 */
