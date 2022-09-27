@@ -73,7 +73,7 @@ button {
     color: #fff;
     padding: 12px 32px;
     border: none;
-    border-radius: 70px;
+    border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
     
@@ -653,5 +653,6 @@ add shade/shadow to the pricing options
 make the plan containers the same width
 when you make the page smaller, the text of 
 "buy now" doesn't fit in the button
+added comments
 added comments
 */
