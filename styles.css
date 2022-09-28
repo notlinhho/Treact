@@ -645,6 +645,34 @@ PRICING
     
 }
 
+/*
+
+Testimonials
+
+*/
+
+.testimonials__container {
+    display: flex;
+    
+}
+
+.testimonials__container--left {
+
+}
+.testimonials__container--right {
+    padding: 0 0 0 64px;
+    width: 90%;
+}
+
+.clients__img {
+    width: 100%;
+}
+
+.user__img {
+    width: 80px;
+    height: 80px;
+}
+
 
 
 
