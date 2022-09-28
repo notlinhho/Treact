@@ -653,6 +653,7 @@ Testimonials
 
 .testimonials__container {
     display: flex;
+    padding: 96px 0 96px 0;
     
 }
 
@@ -671,7 +672,38 @@ Testimonials
 .user__img {
     width: 80px;
     height: 80px;
+    border-radius: 80%;
 }
+
+.user__container {
+    display: flex;
+   
+}
+
+.user__title {
+    color: #718096;
+}
+.user__container--info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 12px;
+}
+
+.review__title {
+    margin: 16px 0 0 0;
+}
+
+.review__title, .user__name {
+    color: #243e63;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.review__para {
+    margin: 16px 0 40px 0;
+}
+
 
 
 
