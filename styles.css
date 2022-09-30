@@ -716,11 +716,54 @@ Testimonials
     margin: 16px 0 40px 0;
 }
 
+/*
+
+FAQS
+
+*/
+
+.faqs__container--top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions__para {
+    width: 45%;
+}
+
+
+.faqs__container--btm {
+    margin: 48px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions__desc {
+    font-size: 20px;
+}
+
+.questions__container--right {
+    margin: 0 0 0 12px
+}
+
+/*
+
+Developers 
+
+*/
+
+.developer__row {
+    padding: 96px 0;
+}
 
 
 
 
-/* fix the icon svg position
+/* accordion -- search up on yt
+fix the icon svg position
 add shade/shadow to the pricing options
 make the plan containers the same width
 when you make the page smaller, the text of 
