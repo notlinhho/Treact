@@ -666,6 +666,17 @@ Testimonials
     width: 90%;
 }
 
+.star__svg {
+    width: 20px;
+    height: 20px;
+    fill: #f6c00d;
+}
+
+.rating__container {
+    display: flex;
+    margin:  24px 0 3px 0;
+}
+
 .clients__img {
     width: 100%;
 }
