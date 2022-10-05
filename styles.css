@@ -726,13 +726,12 @@ FAQS
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .questions__para {
-    width: 45%;
+    width: 55%;
+    text-align: center;
 }
-
 
 .faqs__container--btm {
     margin: 48px 0 0 0;
@@ -746,12 +745,13 @@ FAQS
 }
 
 .questions__container--right {
-    margin: 0 0 0 12px
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .accordion {
     max-width: 800px;
-
 }
 
 .accordion .contentBx {
@@ -760,50 +760,69 @@ FAQS
 }
 
 .accordion .contentBx .label {
-    padding: 10px;
+    position: relative;
+    padding: 20px;
     background: #EDF2F7;
     color: #1A202C;
     font-weight: 600;
-    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+.accordion .contentBx .label:hover {
+    background: #e5eaef;
+}
+
 .accordion .contentBx .label::before {
-    content: url(./assets/arrow.svg);
-    width: 1.5rem;
-    height: 1.5rem;
-    display: incline-flex;
+    content: '+';
     position: absolute;
-    top: 50%;
+    width: 2rem;
+    height: 1rem;
+    top: 45%;
     right: 20px;
-    transform: translateY(-50%);
-    
+    transform: translateY(-50%); 
+    background: #6415ff;
 }
 
 .accordion .contentBx.active .label::before {
-    content: '+';
-    position: absolute;
-    top: 50%;
-    right: 20px;
+    content: '-';
+    background: #FEB2B2;
 }
 
 .accordion .contentBx .content {
     position: relative;
-    background: #e9edf2;
+    background: #e5eaef;
     height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.7s;
     overflow-y: auto;
+    border-radius: 0px 0 5px 5px;
+}
+
+.accordion .contentBx.active .label {
+    background-color: #276749;
+    border-radius: 5px 5px 0 0;
 }
 
 .accordion .contentBx.active .content {
-    height: 150px;
+    height: 80px;
     padding: 10px;
+    
 }
 
-.accordion .contentBx .content:hover {
-    color: #d4d8dd;
+.accordion .contentBx .label::after {
+    background: #243e63;
 }
+
+
+
+
+.accordion .contentBx .content:hover {
+    color: #e5eaef;
+    
+}
+
 /*
 
 Developers 
