@@ -815,9 +815,6 @@ FAQS
     background: #243e63;
 }
 
-
-
-
 .accordion .contentBx .content:hover {
     color: #e5eaef;
     
@@ -830,8 +827,58 @@ Developers
 */
 
 .developer__row {
-    padding: 96px 0;
+    padding: 96px 32px;
 }
+
+.developer__container {
+    background-color: #6415ff;
+    color: #FFF;
+    width: 1000px;
+    height: 282px;
+    border-radius: 20px;
+}
+
+.developer__container, .developer__container--txt, .developer__container--right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.developer__title {
+    font-size: 30px;
+    max-width: 100%;
+}
+
+.developer__container--left {
+    max-width: 55%;
+}
+
+.developer__container--right {
+    margin-right: 24px;
+}
+
+.getstarted__btn {
+    background: #F56565;
+    margin-right: 24px;
+
+}
+
+.getstarted__btn:hover{
+    background: #f15555;
+}
+
+.contact__btn {
+    background: #e65c7d;
+}
+
+.contact__btn:hover {
+    background: #e64e72;
+}
+
+.getstarted__btn, .contact__btn {
+    height: 60px;
+}
+
 
 
 
