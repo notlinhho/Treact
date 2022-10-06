@@ -836,6 +836,11 @@ Developers
     width: 1000px;
     height: 282px;
     border-radius: 20px;
+    margin: auto;
+}
+
+.developer__container--txt {
+    margin: 24px;
 }
 
 .developer__container, .developer__container--txt, .developer__container--right {
