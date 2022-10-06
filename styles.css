@@ -738,6 +738,7 @@ FAQS
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .questions__desc {
@@ -751,7 +752,7 @@ FAQS
 }
 
 .accordion {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .accordion .contentBx {
@@ -782,12 +783,11 @@ FAQS
     top: 45%;
     right: 20px;
     transform: translateY(-50%); 
-    background: #6415ff;
 }
 
 .accordion .contentBx.active .label::before {
     content: '-';
-    background: #FEB2B2;
+    
 }
 
 .accordion .contentBx .content {
@@ -801,13 +801,13 @@ FAQS
 }
 
 .accordion .contentBx.active .label {
-    background-color: #276749;
+    background-color: #e5eaef;
     border-radius: 5px 5px 0 0;
 }
 
 .accordion .contentBx.active .content {
-    height: 80px;
-    padding: 10px;
+    height: 70px;
+    padding: 5px 20px;
     
 }
 
