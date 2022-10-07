@@ -70,7 +70,7 @@ button {
     padding: 16px 0px;*/
 
     background-color: #6415ff;
-    color: #fff;
+    color: #F7FAFC;
     padding: 12px 32px;
     border: none;
     border-radius: 50px;
@@ -832,7 +832,7 @@ Developers
 
 .developer__container {
     background-color: #6415ff;
-    color: #FFF;
+    color: #F7FAFC;
     width: 1000px;
     height: 282px;
     border-radius: 20px;
@@ -840,7 +840,7 @@ Developers
 }
 
 .developer__container--txt {
-    margin: 24px;
+    margin: 32px;
 }
 
 .developer__container, .developer__container--txt, .developer__container--right {
@@ -852,6 +852,7 @@ Developers
 .developer__title {
     font-size: 30px;
     max-width: 100%;
+    font-weight: 600;
 }
 
 .developer__container--left {
@@ -882,6 +883,45 @@ Developers
 
 .getstarted__btn, .contact__btn {
     height: 60px;
+}
+
+/*
+
+FOOTER 
+
+*/
+
+.footer__container {
+    background: #6415ff;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer__links--container {
+    padding: 48px 0;
+    margin: 0 24px;
+}
+
+.footer__title {
+    color: #F7FAFC;
+    font-weight: bold;
+    margin: 48px 0 0 0;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0 0;
+}
+
+.footer__link {
+    color: #F7FAFC;
+}
+
+.footer__link--list{
+    margin: 12px 0 0 0;
+    
 }
 
 
