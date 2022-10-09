@@ -893,14 +893,17 @@ FOOTER
 
 .footer__container {
     background: #6415ff;
+    text-align: left;
+    padding: 48px;
+}
+
+.footer__top--container {
     display: flex;
     justify-content: space-between;
-    text-align: left;
+    
 }
 
 .footer__links--container {
-    padding: 48px 0;
-    margin: 0 24px;
 }
 
 .footer__title {
@@ -923,6 +926,68 @@ FOOTER
     margin: 12px 0 0 0;
 }
 
+.footer__divider {
+    border-top: 2px solid #e5e7eb;
+    background: #6415ff;
+    margin: 64px 0px;
+    display: flex;
+}
+
+.footer__btm--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6415ff;
+}
+
+.footer__logo--link {
+    display: flex;
+}
+
+.footer__logo--link {
+    align-items: center;
+}
+
+.footer__logos--container {
+    max-width: 128px;
+    height: 32px;
+}
+
+.footer__logo--fb, .footer__logo--twt, .footer__logo--yt {
+    width: 32px;
+    height: 32px;
+    background: white;
+    fill: black;
+    border-radius: 16px;
+    padding: 8px;
+
+}
+
+.footer__logo {
+   height: 32px;
+   width: 32px;
+   margin: 0px;
+}
+
+.treact__logo {
+    font-size: 20px;
+    width: 120px;
+    padding-left: 12px;
+}
+
+.footer__copyright, .treact__logo {
+    color: #f2f4f8;
+}
+
+.logo__text {
+    padding: 0;
+}
+
+
+
+
+
+    
 
 
 
