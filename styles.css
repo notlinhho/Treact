@@ -948,8 +948,14 @@ FOOTER
     align-items: center;
 }
 
+.treact__logo {
+    font-size: 20px;
+    width: 120px;
+    padding-left: 12px;
+}
+
 .footer__logos--container {
-    max-width: 128px;
+    width: 140px;
     height: 32px;
 }
 
@@ -960,19 +966,16 @@ FOOTER
     fill: black;
     border-radius: 16px;
     padding: 8px;
+}
 
+.footer__logo--fb, .footer__logo--twt {
+    margin: 0 16px 0 0;
 }
 
 .footer__logo {
    height: 32px;
    width: 32px;
    margin: 0px;
-}
-
-.treact__logo {
-    font-size: 20px;
-    width: 120px;
-    padding-left: 12px;
 }
 
 .footer__copyright, .treact__logo {
