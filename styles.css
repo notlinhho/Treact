@@ -64,7 +64,7 @@ input {
     color: #1A202C;;
 }
 
-button {
+.button {
     background-color: #6415ff;
     color: #F7FAFC;
     padding: 12px 32px;
@@ -74,7 +74,7 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+.button:hover {
     background-color: #5011cc;
     cursor: not-allowed;
 }
@@ -160,6 +160,28 @@ a:hover {
     margin: 32px 0 0 0;
 }
 
+.hamburger {
+    /*
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #6415ff;
+    color: #a711cc;
+    appearance: none;
+    border: none; */
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: #16e785;
+    cursor: pointer;
+    font-size: 20px;  
+
+}
+
+.hamburger:focus {
+    outline: none;
+}
 
 .nav, 
 .nav__links,
@@ -168,7 +190,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     color: #243e63;
-    padding: 0 0 4px;
+    padding: 0 0 4fpx;
 }
 
 .nav__link {
@@ -996,8 +1018,19 @@ FOOTER
     padding: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .nav__links {
+        display: none;
+        width: 100%;
+    }
 
+    .nav__links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
 
 
