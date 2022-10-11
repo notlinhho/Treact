@@ -29,7 +29,8 @@ li {
 
 a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
+    color: #243e63;
 }
 
 p {
@@ -60,6 +61,7 @@ input {
     border-radius: 9999px;
     font-weight: 500;
     border: 2px solid #e5e7eb;
+    color: #1A202C;;
 }
 
 button {
@@ -81,7 +83,7 @@ button {
 
 button:hover {
     background-color: #5011cc;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .divider {
@@ -147,12 +149,12 @@ NAVIGATION
     font-weight: bold;
 }
 
-.logo__text:hover, li:hover {
+.logo__text:hover, a:hover {
     color: #6415ff;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
-li:hover {
+a:hover {
     text-decoration: underline;
     /* adjust the distance between underline and text */
     text-underline-offset: 8px;
@@ -383,12 +385,12 @@ STEPS
 
 .steps__columns--left {
     width: 50%;
-    padding: 32px 32px 0 0;
+    padding: 32px 32px 0 32px;
 }
 
 .steps__columns--right {
-    padding: 32px 0 32px 0;
-    width: 50%;
+    padding: 32px;
+    width: 40%;
 }
 
 .numbers__container {
@@ -442,10 +444,6 @@ STEPS
     display: flex;
 }
 
-.affordable__right, .professionalism__right {
-    margin: 0 0 0 12px;
-}   
-
 /* 
 
 VALUES
@@ -469,6 +467,10 @@ VALUES
     margin: 24px 0 0 0;
 }
 
+.affordable__sides, .professionalism__sides {
+    align-items: center;
+}
+2
 .affordable__header, .professionalism__header {
     color: #243e63;
 }
@@ -484,6 +486,10 @@ VALUES
     width: 36px;
 }
 
+.affordable__right, .professionalism__right {
+    margin: 0 0 0 12px;
+}   
+
 .affordable__left {
     color: #276749;
     background-color: #9AE6B4;
@@ -493,6 +499,11 @@ VALUES
 .feather-dollar-sign {
     align-items: center;
     justify-content: center;
+    
+}
+
+.feather {
+    margin: 5.5px;
 }
 
 .professionalism__left {
@@ -549,7 +560,7 @@ PRICING
     /*padding: 8px 32px 0 32px;*/
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 320px;
     
 }
 
@@ -564,6 +575,11 @@ PRICING
 }
 
 .plans__button--mid {
+    background: #fff;
+    color: #6415ff;
+}
+
+.plans__button--mid:hover {
     background: #fff;
     color: #6415ff;
 }
@@ -586,9 +602,6 @@ PRICING
 .plans__container--btm {
     align-items: center;
 }
-
-
-
 
 .plans__container--mid, .plans__container--btm {
     padding: 32px;
@@ -636,13 +649,12 @@ PRICING
 
 .business__title, .business__pricing, .plans__features--container, .business__list, .business__monthly {
     color: #fff;
-    
 }
 
 .plans__button--first, .plans__button--mid, .plans__button--last {
     font-size: 14px;
-    width: 100%;
-    
+    width: 200px;
+    height: 50px;
 }
 
 /*
@@ -920,6 +932,10 @@ FOOTER
 
 .footer__link {
     color: #F7FAFC;
+}
+
+.footer__link:hover{
+    color: #fff;
 }
 
 .footer__link--list{
