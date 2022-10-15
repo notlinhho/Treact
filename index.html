@@ -8,7 +8,7 @@
     <title>Treact Project</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -20,10 +20,6 @@
                     <img class="logo" src="./assets/logo.svg" alt="">Treact
                 </a>
                 
-                <button class="hamburger">
-                    <i class="fas fa-bars"></i>
-                </button>
-                
                 <ul class="nav__links">
                     <li><a href="" class="nav__link">About</a></li>
                     <li><a href="" class="nav__link">Blog</a></li>
@@ -33,8 +29,29 @@
 
                     <button class="button nav__link nav__link--primary">Sign Up</button>
                 </ul>
-
+                
+                <button class="nav__burger" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
+
+            <div class="menu__backdrop">
+
+                <button class="menu__btn" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="menu__links">
+                    <a href="" class="menu__link" onclick="closeMenu()">About</a>
+                    <a href="" class="menu__link" onclick="closeMenu()">Blog</a>
+                    <a href="" class="menu__link" onclick="closeMenu()">Pricing</a>
+                    <a href="" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                    <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+                    <a href="" class="button menu__link--btn" onclick="closeMenu()">Sign Up</a>
+                </div>
+                
+                
+            </div>
 
             <div class="header__container">
                 <div class="header__columns">

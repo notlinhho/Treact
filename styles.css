@@ -155,7 +155,7 @@ a:hover {
     margin: 32px 0 0 0;
 }
 
-.hamburger {
+.nav__burger {
     /*
     display: block;
     width: 35px;
@@ -173,12 +173,13 @@ a:hover {
     font-size: 20px;  
 }
 
-.hamburger:focus {
+.nav__burger:focus {
     outline: none;
 }
 
 .nav, 
 .nav__links,
+.menu__link,
 .logo__text {
     display: flex;
     justify-content: space-between;
@@ -190,6 +191,58 @@ a:hover {
 .nav__link {
     margin: 0px 24px;
     font-weight: 600;
+}
+
+/* 
+
+MENU
+
+*/
+
+.menu__backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    margin: 24px 16px;
+    padding: 32px;
+    background-color: #fff;
+    z-index: 1000;
+    visibility: hidden;
+    transform: translateY(-250%);
+    transition: all 850ms ease;
+    border: 1px solid rgb(229, 231, 235);
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__link {
+    padding-bottom: 4px;
+    margin: 9px 0;
+    font-size: 18px;
+}
+
+.menu__link:last-child {
+    margin: 9px 0px;
+}
+
+.menu__btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    transform: translateX(0);
 }
 
 /* 
@@ -570,7 +623,10 @@ PRICING
     /*padding: 8px 32px 0 32px;*/
     display: flex;
     flex-direction: column;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     width: 320px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
     
 }
 
@@ -584,22 +640,13 @@ PRICING
     border-radius: 10px;
 }
 
-.plans__button--mid {
-    background: #fff;
-    color: #6415ff;
-}
-
-.plans__button--mid:hover {
+.plans__button--mid, .plans__button--mid:hover {
     background: #fff;
     color: #6415ff;
 }
 
 .gradient__red, .plans__button--last {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-}
-
-.plans__container--top {
-    padding: 32px 0;
 }
 
 .plans__container--mid {
@@ -613,8 +660,9 @@ PRICING
     align-items: center;
 }
 
-.plans__container--mid, .plans__container--btm {
+.plans__container--top, .plans__container--mid, .plans__container--btm {
     padding: 32px;
+    
 }
 
 .plans__container--top, .plans__container--mid, .plans__container--btm, .plans__features--container {
@@ -678,6 +726,7 @@ Testimonials
     padding: 96px 0 96px 0;
     
 }
+
 
 .testimonials__container--right {
     padding: 0 0 0 64px;
@@ -1005,22 +1054,22 @@ FOOTER
     padding: 0;
 }
 
-@media screen and (max-width: 1023px) {
+/*
+
+MEDIA 
+
+*/
+
+@media (max-width: 1024px) {
     .nav__links {
         display: none;
-        width: 100%;
+
     }
 
-    .nav__links.show {
-        display: flex;
-    }
-
-    .hamburger {
+    .nav__burger {
         display: block;
     }
-    
 }
-
 
 
 
