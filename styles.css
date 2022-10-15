@@ -57,6 +57,7 @@ input {
     font-weight: 500;
     border: 2px solid #e5e7eb;
     color: #1A202C;;
+    width: 100%;
 }
 
 .button {
@@ -171,6 +172,8 @@ a:hover {
     color: #16e785;
     cursor: pointer;
     font-size: 20px;  
+    height: 24px;
+    width: 24px;
 }
 
 .nav__burger:focus {
@@ -193,6 +196,9 @@ a:hover {
     font-weight: 600;
 }
 
+.fas {
+    width: 100%;
+}
 /* 
 
 MENU
@@ -231,6 +237,10 @@ MENU
     margin: 9px 0px;
 }
 
+.menu__link--btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .menu__btn {
     position: absolute;
     top: 24px;
@@ -424,11 +434,14 @@ QUALITY
 }
 
 .img__quality {
-    height: 356px;
-    width: 555px;
+    width: 100%;
+    margin: 26px;
     outline: 1px solid #c4c6ca;
 }
 
+.quality__columns {
+    margin: 0 26px;
+}
 /* 
 
 STEPS 
@@ -439,6 +452,10 @@ STEPS
     padding: 96px 32px;
     display: flex;
 
+}
+
+.steps__columns {
+    display: flex;
 }
 
 .img__steps {
@@ -497,7 +514,7 @@ STEPS
 }
 
 .numbered__para {
-    margin: 12px 0 0;
+    padding: 0 16px 0 16px;
     color: #718096;
     font-size: 14px;
     width: 85%;
@@ -926,14 +943,12 @@ Developers
     max-width: 55%;
 }
 
-.developer__container--right {
+.developer__container--right, .getstarted__btn {
     margin-right: 24px;
 }
 
 .getstarted__btn {
     background: #F56565;
-    margin-right: 24px;
-
 }
 
 .getstarted__btn:hover{
@@ -1060,7 +1075,27 @@ MEDIA
 
 */
 
-@media (max-width: 1024px) {
+@media (max-width: 640px) {
+
+    /* CLASS */
+
+    .paragraphs {
+        text-align: center;
+    }
+
+    .headers {
+        font-size: 36px;
+    }
+
+    .button {
+        margin: 32px 0;
+    }
+
+    button {
+        
+    }
+
+    /* NAV */
     .nav__links {
         display: none;
 
@@ -1069,6 +1104,105 @@ MEDIA
     .nav__burger {
         display: block;
     }
+
+    .header__columns {
+        display: block;
+    }
+
+    .header__columns--left {
+        max-width: 100%;
+        padding: 0 13.5px;   
+        text-align: center;
+    }
+
+    .header__h1 {
+        font-size: 30px;
+    }
+
+    .header__email {
+        margin: 0 32px;
+    }
+
+    /* fix email button to df*/
+
+    .img__trusted {
+        padding: 0;
+    }
+
+    .img__design {
+        max-width: 400px;
+        padding: 24px 0;
+        margin: auto;
+    }
+
+    /* FEATURES */
+
+    .features__column--wrapper {
+        display: block;
+    }
+
+    /* QUALITY */
+
+    .row__columns {
+        display: block;
+        text-align: center;
+    }
+
+    .row__columns--left {
+        width: 100%;
+    }
+
+    .img__quality {
+        outline: 2px solid #c4c6ca;
+        max-width: 448px;
+        height: auto;
+
+    }
+
+    /* STEPS */
+
+    .img__steps {
+        padding-bottom: 16px;
+    }
+    .step__rows, .numbers__container {
+        display: block;
+    }
+
+    .steps__columns {
+        display: block;
+    }
+
+    .steps__columns--left, .steps__columns--right {
+        width: 100%;
+    }
+
+    .steps__columns {
+        text-align: center;
+    }   
+
+    .steps__columns--left {
+        padding: 0;
+    }
+
+    .numbered__columns--right {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .numbered__title {
+        font-size: 24px;
+    }
+
+    .numbered__para {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    
+
+
+
 }
 
 

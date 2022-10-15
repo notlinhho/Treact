@@ -19,7 +19,7 @@
                 <a href="" class="logo__text">
                     <img class="logo" src="./assets/logo.svg" alt="">Treact
                 </a>
-                
+
                 <ul class="nav__links">
                     <li><a href="" class="nav__link">About</a></li>
                     <li><a href="" class="nav__link">Blog</a></li>
@@ -29,10 +29,16 @@
 
                     <button class="button nav__link nav__link--primary">Sign Up</button>
                 </ul>
-                
+
                 <button class="nav__burger" onclick="openMenu()">
-                    <i class="fas fa-bars"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledMenuIcon-lj69nl-15 cPytOe">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
                 </button>
+
+                
             </nav>
 
             <div class="menu__backdrop">
@@ -49,8 +55,8 @@
                     <a href="" class="menu__link" onclick="closeMenu()">Login</a>
                     <a href="" class="button menu__link--btn" onclick="closeMenu()">Sign Up</a>
                 </div>
-                
-                
+
+
             </div>
 
             <div class="header__container">
@@ -209,43 +215,46 @@
 
     <section id="steps">
         <div class="row step__rows">
-            <div class="steps__columns--left">
-                <img class="img__steps" src="./assets/steps.png" alt="">
-            </div>
 
-            <div class="steps__columns--right">
-                <h1 class="titles steps__title"><span class="purple">STEPS</span></h1>
+            <div class="steps__columns">
+                <div class="steps__columns--left">
+                    <img class="img__steps" src="./assets/steps.png" alt="">
+                </div>
 
-                <h2 class="headers steps__header">Easy to <span class="purple">Get Started.</span></h2>
+                <div class="steps__columns--right">
+                    <h1 class="titles steps__title"><span class="purple">STEPS</span></h1>
 
-                <ul class="numbered__columns">
+                    <h2 class="headers steps__header">Easy to <span class="purple">Get Started.</span></h2>
 
-                    <li class="numbers__container">
-                        <div class="numbered__columns--left">01</div>
-                        <div class="numbered__columns--right">
-                            <div class="numbered__title">Register</div>
-                            <p class="numbered__para">Create an account with us using Google or Facebook.</p>
-                        </div>
-                    </li>
+                    <ul class="numbered__columns">
 
-                    <li class="numbers__container">
-                        <div class="numbered__columns--left">02</div>
-                        <div class="numbered__columns--right">
-                            <div class="numbered__title">Download</div>
-                            <p class="numbered__para">Browse and Download the template that you like from the
-                                marketplace.</p>
-                        </div>
-                    </li>
+                        <li class="numbers__container">
+                            <div class="numbered__columns--left">01</div>
+                            <div class="numbered__columns--right">
+                                <div class="numbered__title">Register</div>
+                                <p class="numbered__para">Create an account with us using Google or Facebook.</p>
+                            </div>
+                        </li>
 
-                    <li class="numbers__container">
-                        <div class="numbered__columns--left">03</div>
-                        <div class="numbered__columns--right">
-                            <div class="numbered__title">Run</div>
-                            <p class="numbered__para">Follow the instructions to setup and customize the template to
-                                your needs.</p>
-                        </div>
-                    </li>
-                </ul>
+                        <li class="numbers__container">
+                            <div class="numbered__columns--left">02</div>
+                            <div class="numbered__columns--right">
+                                <div class="numbered__title">Download</div>
+                                <p class="numbered__para">Browse and Download the template that you like from the
+                                    marketplace.</p>
+                            </div>
+                        </li>
+
+                        <li class="numbers__container">
+                            <div class="numbered__columns--left">03</div>
+                            <div class="numbered__columns--right">
+                                <div class="numbered__title">Run</div>
+                                <p class="numbered__para">Follow the instructions to setup and customize the template to
+                                    your needs.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
