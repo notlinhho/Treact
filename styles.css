@@ -940,7 +940,7 @@ Developers
 }
 
 .developer__container--left {
-    max-width: 55%;
+    width: 55%;
 }
 
 .developer__container--right, .getstarted__btn {
@@ -1291,7 +1291,43 @@ MEDIA
         justify-content: center;
     }
 
+    .user__container {
+        margin-top: 32px;
+    }
 
+    /* DEVELOPER */
+
+    .developer__container {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .developer__container, 
+    .developer__container--right, 
+    .developer__container--left {
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .developer__container--txt, .developer__container--right {
+        display: block;
+    }
+
+    .developer__container--right {
+        margin-top: 12px;
+    }
+
+    .developer__title {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+
+    .getstarted__btn, .contact__btn {
+        margin: 6px 4px;
+        height: 50px;
+    }
 
 }
 
