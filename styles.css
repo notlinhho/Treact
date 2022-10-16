@@ -1273,7 +1273,23 @@ MEDIA
         margin-bottom: 64px;
     }
 
-    
+    /* TESTIMONIALS */
+
+    .testimonials__container, .user__container {
+        display: block;
+    }
+
+    .clients__img {
+        padding-bottom: 96px;
+    }
+
+    .review__container {
+        text-align: center;
+    }
+
+    .rating__container {
+        justify-content: center;
+    }
 
 
 
