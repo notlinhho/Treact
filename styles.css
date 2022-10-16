@@ -435,7 +435,8 @@ QUALITY
 
 .img__quality {
     width: 100%;
-    margin: 26px;
+    margin-top: 56px;
+    margin-bottom: 72px;
     outline: 1px solid #c4c6ca;
 }
 
@@ -514,7 +515,6 @@ STEPS
 }
 
 .numbered__para {
-    padding: 0 16px 0 16px;
     color: #718096;
     font-size: 14px;
     width: 85%;
@@ -1080,20 +1080,27 @@ MEDIA
     /* CLASS */
 
     .paragraphs {
+        margin: 16px 0;
+    }
+
+    .paragraphs, .headers, .titles {
         text-align: center;
     }
 
     .headers {
         font-size: 36px;
+        
     }
 
     .button {
-        margin: 32px 0;
+        text-align: center;
     }
 
-    button {
-        
+    /*.button {
+        margin: 32px 0;
+        text-align: center;
     }
+    */
 
     /* NAV */
     .nav__links {
@@ -1107,6 +1114,7 @@ MEDIA
 
     .header__columns {
         display: block;
+        
     }
 
     .header__columns--left {
@@ -1127,11 +1135,12 @@ MEDIA
 
     .img__trusted {
         padding: 0;
+        width: 400px;
     }
 
     .img__design {
-        max-width: 400px;
-        padding: 24px 0;
+        width: 400px;
+        padding: 72px 0 0px 0;
         margin: auto;
     }
 
@@ -1164,6 +1173,7 @@ MEDIA
     .img__steps {
         padding-bottom: 16px;
     }
+
     .step__rows, .numbers__container {
         display: block;
     }
@@ -1199,7 +1209,69 @@ MEDIA
         font-size: 18px;
     }
 
+    /* VALUES */
+
+    .values__container {
+        display: block;
+        
+    }
+
+    .values__column--left {
+        width: 100%;
+    }
+
+    .benefits__container {
+        padding: 12px;
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .professionalism__para, 
+    .affordable__para, 
+    .professionalism__sides,
+    .affordable__sides {
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .professionalism__para, 
+    .affordable__para {
+        width: 80%;
+    }
+
+    .professionalism__sides,
+    .affordable__sides {
+        margin: 0 0 6px 0;
+    }
+
+    .professionalism__container, .affordable__container {
+        margin: 32px 2px 0;
+    }
+
+    .quality__columns--left {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*  PRICING */
     
+    .plans__container {
+        display: block;
+    }
+
+    .threeplans__wrapper {
+        margin: auto;
+    }
+
+    .personal__container, .business__container, .enterprise__container {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
 
 
 
