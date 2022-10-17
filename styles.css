@@ -56,7 +56,8 @@ input {
     border-radius: 9999px;
     font-weight: 500;
     border: 2px solid #e5e7eb;
-    color: #1A202C;;
+    color: #1A202C;
+    width: 100%;
 }
 
 .button {
@@ -286,15 +287,9 @@ HEADER
 
 .header__email {
     display: flex;
-    position: absolute;
-}
-
-.header__columns--right {
     position: relative;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    max-width: 420px;
 }
 
 .header__columns--left {
@@ -1126,6 +1121,11 @@ MEDIA
 
     }
 
+    /* FEATURES */
+
+    .features__title--services {
+        font-size: 36px;
+    }
 
     /* STEPS */
 
@@ -1141,9 +1141,11 @@ MEDIA
         padding-bottom: 0;
     }
 
+    /* TESTIMONIALS */
 
-
-    
+    .testimonials__container {
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 980px) {
@@ -1162,6 +1164,18 @@ MEDIA
         text-align: center;
     }
 
+    .steps__header {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 834px) {
+
+    .features__column--services {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media (max-width: 640px) {
@@ -1188,7 +1202,14 @@ MEDIA
     }
 
     .header__email {
-        margin: 0 32px;
+        display: block;
+        margin: 0 70px;
+    }
+
+    .header__button {
+        position: initial;
+        width: 100%;
+        padding: 16px 0px;
     }
 
     /* fix email button to df*/
@@ -1420,6 +1441,10 @@ MEDIA
         width: 90%;
     }
 }
+
+
+
+
 
 
 
